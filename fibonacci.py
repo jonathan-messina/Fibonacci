@@ -9,7 +9,7 @@ def fibonacci(n):
     elif(n <= 1):
         fib = [0];
     else:
-        while (len(fib) < n):
+        while (len(fib) <= n):
             fib.append(fib[first] + fib[sec]);
             first += 1
             sec += 1
